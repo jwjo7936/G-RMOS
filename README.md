@@ -9,12 +9,12 @@ This software was developed using a workstation with Ubuntu18.04, Nvidia 2080ti 
 G-RMOS provides a Docker image that includes the proper environment with all dependencies. Note that nvidia-docker must be installed to run on GPU.
 
 ```
-docker pull jwjo7936:g-rmos~~~~
+docker pull jwjo7936/g_rmos:1.0.0
 ```
 
 To launch the G-RMOS container, run the following:
 ```
-docker run --gpus=all -it -v ~/:/mnt/ jwjo7936:g-rmos~~~~
+docker run --gpus=all -it -v ~/:/mnt/ jwjo7936/g_rmos:1.0.0
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ Command arguments with examples (file or parameter)
 ## Example Commands
 We provide example hipocampus surfaces and their parameters for G-RMOS. these files are in /workspace/example. To registrate theses surfaces with G-RMOS, run
 ```
-$ cd /workspace/g_rmos/example
+$ cd /workspace/example
 $ ../g_rmos source_hippo.obj target_hippo.obj -1 -1 15 10 50 20 20 SourceEF.raw TargetEF.raw SourceWeight.raw TargetWeight.raw S2T.obj T2S.obj S2T.raw T2S.raw 0 SourceInitWeight.raw TargetInitWeight.raw 1 source_hippo_mc.raw target_hippo_mc.raw S2T-Feat.raw T2S-Feat.raw 10 100 0 0.1 1
 ```
 
