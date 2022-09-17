@@ -55,7 +55,7 @@ Command arguments with examples (file or parameter)
 
 
 ## Example Commands
-We provide example hipocampus surfaces and their parameters for G-RMOS. these files are in /workspace/g_rmos/example. To registrate theses surfaces with G-RMOS, run
+We provide example hipocampus surfaces and their parameters for G-RMOS. these files are in /workspace/example. To registrate theses surfaces with G-RMOS, run
 ```
 $ cd /workspace/g_rmos/example
 $ ../g_rmos source_hippo.obj target_hippo.obj -1 -1 15 10 50 20 20 SourceEF.raw TargetEF.raw SourceWeight.raw TargetWeight.raw S2T.obj T2S.obj S2T.raw T2S.raw 0 SourceInitWeight.raw TargetInitWeight.raw 1 source_hippo_mc.raw target_hippo_mc.raw S2T-Feat.raw T2S-Feat.raw 10 100 0 0.1 1
