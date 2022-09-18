@@ -8,7 +8,7 @@ See detailed usage instructions below:
 
 ## Docker
 This software was developed using a workstation with Ubuntu20.04, Nvidia 2080ti GPU (Driver version is 512.15). 
-To manage library dependencies, we use Nvidia HPC SDK Docker image (nvcr.io/nvidia/nvhpc:21.5-devel-cuda11.3-ubuntu20.04) as base.
+To manage library dependencies, we use Nvidia HPC SDK Docker image (nvcr.io/nvidia/nvhpc:21.5-devel-cuda11.3-ubuntu20.04) as base. 
 G-RMOS provides a Docker image that includes the proper environment with all dependencies. Note that nvidia-docker must be installed to run on GPU.
 ```
 docker pull jwjo7936/g_rmos:1.0.0
@@ -18,6 +18,8 @@ To launch the G-RMOS container, run the following:
 ```
 docker run --gpus=all -it -v ~/:/mnt/ jwjo7936/g_rmos:1.0.0
 ```
+
+If you face some errors such like PTX code, please check NVIDIA documents: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
 
 ## Usage
 G-RMOS reqires some parameters to registrate surfaces. 
