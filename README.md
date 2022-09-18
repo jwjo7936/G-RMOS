@@ -7,7 +7,8 @@ This repository contains the official implementation of G-RMOS, introduced in **
 See detailed usage instructions below:
 
 ## Docker
-This software was developed using a workstation with Ubuntu18.04, Nvidia 2080ti GPU, and CUDA 11.2.1. To manage library dependencies, we use Nvidia HPC SDK {}.
+This software was developed using a workstation with Ubuntu20.04, Nvidia 2080ti GPU (Driver version is 512.15). 
+To manage library dependencies, we use Nvidia HPC SDK Docker image {nvcr.io/nvidia/nvhpc:21.5-devel-cuda11.3-ubuntu20.04} as base.
 G-RMOS provides a Docker image that includes the proper environment with all dependencies. Note that nvidia-docker must be installed to run on GPU.
 
 ```
@@ -54,6 +55,9 @@ Command arguments with examples (file or parameter)
 	 >gamma_smooth: Ratio for smoothness term (Er/Ef, default: 0) 
 	 >type_gamma: Type of gamma_smooth - 0: fixed ratio (default), 1: Er/Ef min ratio, 2: Er/Ef mean ratio
 ```
+
+## Getting Started
+
 
 
 ## Example Commands
