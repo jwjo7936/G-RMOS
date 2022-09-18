@@ -8,9 +8,8 @@ See detailed usage instructions below:
 
 ## Docker
 This software was developed using a workstation with Ubuntu20.04, Nvidia 2080ti GPU (Driver version is 512.15). 
-To manage library dependencies, we use Nvidia HPC SDK Docker image {nvcr.io/nvidia/nvhpc:21.5-devel-cuda11.3-ubuntu20.04} as base.
+To manage library dependencies, we use Nvidia HPC SDK Docker image (nvcr.io/nvidia/nvhpc:21.5-devel-cuda11.3-ubuntu20.04) as base.
 G-RMOS provides a Docker image that includes the proper environment with all dependencies. Note that nvidia-docker must be installed to run on GPU.
-
 ```
 docker pull jwjo7936/g_rmos:1.0.0
 ```
@@ -56,11 +55,7 @@ Command arguments with examples (file or parameter)
 	 >type_gamma: Type of gamma_smooth - 0: fixed ratio (default), 1: Er/Ef min ratio, 2: Er/Ef mean ratio
 ```
 
-## Getting Started
-
-
-
-## Example Commands
+## Getting Started (Example)
 We provide example hipocampus surfaces and their parameters for G-RMOS. these files are in /workspace/example. To registrate theses surfaces with G-RMOS, run
 ```
 $ cd /workspace/example
