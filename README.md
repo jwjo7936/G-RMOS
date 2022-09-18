@@ -68,10 +68,12 @@ $ ../g_rmos source_hippo.obj target_hippo.obj -1 -1 15 10 50 20 20 SourceEF.raw 
 After program executed, you can check the results (S2T.obj, T2S.obj) like at /workspace/example.
 <img src="./assets/hippo_s2t.gif" width="40%" height="40%" />
 <img src="./assets/hippo_t2s.gif" width="40%" height="40%" />
+
 Source.obj with source_hippo_mc.raw (Pullback Feature)
 Target.obj with target_hippo_mc.raw (Pullback Feature)
 <img src="./assets/hippo_s2t.gif" width="40%" height="40%" />
 <img src="./assets/hippo_t2s.gif" width="40%" height="40%" />
+
 S2T.obj with S2T-Feat.raw (Pullback Feature)
 T2S.obj with T2S-Feat.raw (Pullback Feature)
 
