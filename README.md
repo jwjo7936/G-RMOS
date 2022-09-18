@@ -1,6 +1,8 @@
 # G-RMOS: GPU-accelerated Riemannian Metric Optimization on Surfaces
 
 This repository contains the official implementation of G-RMOS, introduced in ***"G-RMOS: GPU-accelerated Riemannian Metric Optimization on Surfaces"***. 
+![figure](./assets/concept_of_g_rmos.png)
+
 
 See detailed usage instructions below:
 
