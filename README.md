@@ -19,7 +19,8 @@ To launch the G-RMOS container, run the following:
 docker run --gpus=all -it -v ~/:/mnt/ jwjo7936/g_rmos:1.0.0
 ```
 
-If you face some errors such like PTX code, please check NVIDIA documents: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
+If you face PTX error, please check NVIDIA document (https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html)
+to check the optimal GPU driver version
 
 ## Usage
 G-RMOS reqires some parameters to registrate surfaces. 
